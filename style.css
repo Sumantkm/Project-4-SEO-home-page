@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    max-width: 1790px;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container{
+        width: 100%;
+        margin: 0 auto;
+}
+
+.navbar-container{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+
+.navbar-container div img {
+    margin-left: 50px;
+}
+
+.navbar-container .grow-list {
+    flex: 2;
+}
+
+.navbar-container .grow-list .list {
+    list-style-type: none;
+    display: flex;
+    color: #444343;
+    margin-left: 50px;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-container .grow-list .list .list-item:not(:last-child){
+    margin-right: 50px;
+}
+
+
+.navbar-container .grow-list .list .list-item:first-child{
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+}
+
+.navbar-container .button-group .nav-button {
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: #584eee;
+    border: none;
+    color: #fff;
+}
+
+/* ------------------banner----------------------- */
+
+.banner-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-container div:first-child{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+.banner-container div h1{
+    font-size: 100px;
+    text-align: center;
+    width: 600px;
+    
+    line-height: 100px;
+}
+
+.banner-container div h1 span{
+color: cornflowerblue;
+}
+
+.banner-container div .description{
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    color:#444343 ;
+    width: 550px;
+}
+
+.banner-container div .nav-button{
+ margin-bottom: 20px;
+ 
+ padding: 40px;
+ background-color: #584eee;
+ border: none;
+ color: #fff;
+ font-size: 30px;
+ font-weight: 700;
+ border-radius: 15px;
+ width: 400px;
+
+}
+
+/* .banner-container div:last-child img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    
+    
+} */
+

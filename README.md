@@ -1,4 +1,4 @@
-# SEO home page
+# SEO home page - [LINK](seo3-home-page.netlify.app)
 ![Ineuron & LCO](https://img.shields.io/badge/Ineuron-LCO-brightgreen) 
 ![Ineuron & LCO](https://img.shields.io/badge/Hitesh%20Choudhary-Full--stack--JS--bootcamp-brightgreen)
 <br>
